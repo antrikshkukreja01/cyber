@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+:root {
+  /* ---- Font Size ----- */
+  --fs-xsm: 14px;
+  --fs-sm: 15px;
+  --fs-md: 16px;
+  --fs-2x4l: 24px;
+  --fs-2x8l: 28px;
+  --fs-3x6l: 36px;
+  --fs-4x8l: 48px;
+  --fs-7x2l: 50px;
+
+  /* ---- Color ---- */
+  --clr-orange: #f1ac73;
+}
+/* --- Font Family --- */
+.ff_lato {
+  font-family: "Lato";
+}
+/* Font-size */
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_2x4l {
+  font-size: var(--fs-2x4l);
+}
+.fs_2x8l {
+  font-size: var(--fs-2x8l);
+}
+.fs_3x6l {
+  font-size: var(--fs-3x6l);
+}
+.fs_4x8l {
+  font-size: var(--fs-4x8l);
+}
+.fs_7x2l {
+  font-size: var(--fs-7x2l);
+}
+/* --- clr --- */
+.clr_orange {
+  color: var(--clr-orange);
+}
+
+.paragraph_common {
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.heading_common {
+  color: var(--white, #fff);
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.heading_common_main {
+  font-family: Lato;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main_btn {
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: var(--1, #f1ac73);
+  transition: all ease-in-out 300ms;
+}
+.main_btn:hover {
+  border: 2px solid #f1ac73;
+  transition: all ease-in-out 300ms;
+  border-radius: 8px;
+  background: transparent;
+}
+.btn_style_1 {
+  padding: 8px 15px;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn_style_2 {
+  padding: 12px 25px;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  :root {
+    /* ---- Font Size ----- */
+    --fs-xsm: 16px;
+    --fs-sm: 18px;
+    --fs-md: 20px;
+    --fs-2x4l: 24px;
+    --fs-2x8l: 28px;
+    --fs-3x6l: 36px;
+    --fs-4x8l: 48px;
+    --fs-7x2l: 72px;
+  }
+  .paragraph_common {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    /* ---- Font Size ----- */
+    --fs-xsm: 16px;
+    --fs-sm: 18px;
+    --fs-md: 17px;
+    --fs-2x4l: 24px;
+    --fs-2x8l: 28px;
+    --fs-3x6l: 36px;
+    --fs-4x8l: 48px;
+    --fs-7x2l: 72px;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    /* ---- Font Size ----- */
+    --fs-xsm: 13px;
+    --fs-sm: 18px;
+    --fs-md: 17px;
+    --fs-2x4l: 24px;
+    --fs-2x8l: 28px;
+    --fs-3x6l: 36px;
+    --fs-4x8l: 48px;
+    --fs-7x2l: 63px;
+  }
+}
+@media (min-width: 1140px) {
+  :root {
+    /* ---- Font Size ----- */
+    --fs-xsm: 16px;
+    --fs-sm: 18px;
+    --fs-md: 16px;
+    --fs-2x4l: 24px;
+    --fs-2x8l: 28px;
+    --fs-3x6l: 36px;
+    --fs-4x8l: 48px;
+    --fs-7x2l: 66px;
+  }
+}
+@media (min-width: 1440px) {
+  :root {
+    /* ---- Font Size ----- */
+    --fs-xsm: 16px;
+    --fs-sm: 18px;
+    --fs-md: 20px;
+    --fs-2x4l: 24px;
+    --fs-2x8l: 28px;
+    --fs-3x6l: 36px;
+    --fs-4x8l: 48px;
+    --fs-7x2l: 72px;
+  }
+}
