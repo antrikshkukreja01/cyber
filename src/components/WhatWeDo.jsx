@@ -7,8 +7,8 @@ function WhatWeDo() {
     <>
       <section className=" py-5">
         <Container className=" container_custom">
-          <Row className=" align-items-center justify-content-between">
-            <Col lg={6}>
+          <Row className=" align-items-center flex-column-reverse flex-lg-row justify-content-between">
+            <Col lg={6} className=" mt-5">
               <img className=" w-100" src={whatwedo_img} alt="whatwedo_img" />
             </Col>
             <Col lg={5}>

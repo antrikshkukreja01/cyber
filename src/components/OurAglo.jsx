@@ -14,7 +14,7 @@ function OurAglo() {
               <h2 className=" heading_common">
                 Our <span className="clr_orange">Algo</span>
               </h2>
-              <p className=" paragraph_common text-white mb-0">
+              <p className=" paragraph_common text-white mb-0 mt-3">
                 We have perfected our algorithm, which prioritizes a low risk
                 and consistent profit stream without the need for daily
                 micromanagement. While most trading algorithms can’t stand up

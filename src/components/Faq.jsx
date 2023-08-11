@@ -14,7 +14,7 @@ function Faq() {
           </div>
           <Row className=" align-items-center justify-content-center mt-5">
             <Col lg={10}>
-              <Accordion defaultActiveKey={[""]}>
+              <Accordion defaultActiveKey={["0"]}>
                 <Accordion.Item eventKey="0" className="mb-4">
                   <Accordion.Header>
                     <p className="mb-0 ff_lato text-white fw-normal fs_md ">
@@ -22,7 +22,7 @@ function Faq() {
                     </p>
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p className="mb-0 ff_lato fw-normal fs_xsm text-white">
+                    <p className="mb-0 mx_635 ff_lato fw-normal fs_xsm text-white">
                       Viverra metus viverra rhoncus eget quam suspendisse diam
                       amet, nisl. Mattis maecenas libero lacinia accumsan amet.
                       Quam quam egestas feugiat amet. Ut nibh vulputate.
@@ -36,7 +36,7 @@ function Faq() {
                     </p>
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p className="mb-0 ff_lato fw-normal fs_xsm text-white">
+                    <p className="mb-0 mx_635 ff_lato fw-normal fs_xsm text-white">
                       Viverra metus viverra rhoncus eget quam suspendisse diam
                       amet, nisl. Mattis maecenas libero lacinia accumsan amet.
                       Quam quam egestas feugiat amet. Ut nibh vulputate.
@@ -51,7 +51,7 @@ function Faq() {
                     </p>
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p className="mb-0 ff_lato fw-normal fs_xsm text-white">
+                    <p className="mb-0 mx_635 ff_lato fw-normal fs_xsm text-white">
                       Viverra metus viverra rhoncus eget quam suspendisse diam
                       amet, nisl. Mattis maecenas libero lacinia accumsan amet.
                       Quam quam egestas feugiat amet. Ut nibh vulputate.
@@ -65,7 +65,7 @@ function Faq() {
                     </p>
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p className="mb-0 ff_lato fw-normal fs_xsm text-white">
+                    <p className="mb-0 mx_635 ff_lato fw-normal fs_xsm text-white">
                       Viverra metus viverra rhoncus eget quam suspendisse diam
                       amet, nisl. Mattis maecenas libero lacinia accumsan amet.
                       Quam quam egestas feugiat amet. Ut nibh vulputate.
@@ -79,7 +79,7 @@ function Faq() {
                     </p>
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p className="mb-0 ff_lato fw-normal fs_xsm text-white">
+                    <p className="mb-0 mx_635 ff_lato fw-normal fs_xsm text-white">
                       Viverra metus viverra rhoncus eget quam suspendisse diam
                       amet, nisl. Mattis maecenas libero lacinia accumsan amet.
                       Quam quam egestas feugiat amet. Ut nibh vulputate.

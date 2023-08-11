@@ -9,7 +9,8 @@ import medium from "../assets/img/png/medium_circle.png";
 function Footer() {
   return (
     <>
-      <section className=" pt-5">
+      <section className=" pt-5 position-relative">
+        <span className=" shadow_white position-absolute top-50 translate-middle end-0"></span>
         <Container className=" container_custom">
           <Row className=" justify-content-center mb-4">
             <Col lg={5}>

@@ -36,11 +36,7 @@ function OurMissions() {
         <span className=" shadow_white position-absolute top-0 start-0"></span>
         <Container className="container_custom">
           <Row className="align-items-center justify-content-between">
-            <Col
-              lg={5}
-              className="mb-5 mb-lg-0 ps-sm-5 ps-xl-0 position-relative"
-            >
-              <span className="orange_shadow position-absolute top-0 start-0 d-none d-lg-flex"></span>
+            <Col lg={5} className="mb-5 mb-lg-0 ps-sm-5 ps-xl-0 ">
               <div class="cards-box w_70 ">
                 <div class="card hide">
                   <div class="content-placeholder">

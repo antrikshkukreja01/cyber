@@ -71,13 +71,13 @@
   line-height: normal;
 }
 .main_btn {
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-radius: 8px;
   background: var(--1, #f1ac73);
   transition: all ease-in-out 300ms;
 }
 .main_btn:hover {
-  border: 2px solid #f1ac73;
+  border: 1px solid #f1ac73;
   transition: all ease-in-out 300ms;
   border-radius: 8px;
   background: transparent;
