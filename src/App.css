@@ -384,7 +384,7 @@ body {
 }
 .splide__pagination__page {
   background: black !important;
-  border: 5px solid white !important;
+  border: 2px solid white !important;
   border-radius: 50%;
   display: inline-block;
   height: 20px !important;
@@ -395,7 +395,10 @@ body {
   width: 20px !important;
 }
 .splide__pagination__page.is-active {
-  background: #fff !important;
+  background-image: url(../src/assets/img/png/dot.png) !important;
+  background-position: 50% 45% !important;
+  background-repeat: no-repeat !important;
+  background-size: 60% 60% !important;
   transform: scale(1) !important;
   z-index: 1;
 }

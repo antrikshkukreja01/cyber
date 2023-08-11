@@ -1,11 +1,15 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
+import para_1 from "../assets/img/png/para_bg.png";
 
 function Faq() {
   return (
     <>
-      <section className=" py-5">
+      <section className=" py-5 position-relative">
+        <span className=" position-absolute top-0 mt-5">
+          <img className=" w-25" src={para_1} alt="para_1" />
+        </span>
         <Container className=" container_custom">
           <div className=" text-center">
             <h2 className=" heading_common">
