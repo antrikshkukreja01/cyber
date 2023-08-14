@@ -131,8 +131,8 @@ body {
   background: #191919;
   background-clip: padding-box;
   transition: all 300ms ease-in-out !important;
-  padding: 36px 10px;
-  height: 314.385px;
+  padding: 36px 17px;
+  height: 100%;
 }
 .card_box:hover {
   transition: all 300ms ease-in-out !important;
@@ -618,6 +618,14 @@ img {
   border-bottom-right-radius: var(--bs-accordion-inner-border-radius);
   border-bottom-left-radius: var(--bs-accordion-inner-border-radius);
 }
+.accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-active-icon);
+  transform: var(--bs-accordion-btn-icon-transform);
+  position: absolute;
+  right: 49px;
+  top: 61px;
+  transition: all ease-in-out 300ms !important;
+}
 
 .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color);
@@ -693,33 +701,6 @@ img {
 }
 .border_top {
   border-top: 1px solid #4c4c4c;
-}
-@media (min-width: 576px) {
-  .h_img_team {
-    height: 100%;
-  }
-  .stop {
-    &::after {
-      position: absolute;
-      top: 5px !important;
-      right: 0px !important;
-      width: 30%;
-      border-width: 16px;
-      border-style: dashed;
-      border-color: transparent !important;
-      clip-path: inset(0 0 var(--clip-vertical) var(--clip-horizontal));
-      transform-origin: center;
-      animation: showLine linear both;
-      animation-timeline: view(block);
-      animation-range: cover 10% contain 40%;
-      content: "";
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url(../src/assets/img/png/line_roadmap_2.png) !important;
-      transition: all ease-in-out 300ms !important;
-    }
-  }
 }
 
 /* ---- Backtotop ---- */
@@ -866,6 +847,43 @@ img {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+@media (min-width: 576px) {
+  .card_box {
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 24px;
+    background: #191919;
+    background-clip: padding-box;
+    transition: all 300ms ease-in-out !important;
+    padding: 36px 10px;
+    height: 314.385px;
+  }
+  .h_img_team {
+    height: 100%;
+  }
+  .stop {
+    &::after {
+      position: absolute;
+      top: 5px !important;
+      right: 0px !important;
+      width: 30%;
+      border-width: 16px;
+      border-style: dashed;
+      border-color: transparent !important;
+      clip-path: inset(0 0 var(--clip-vertical) var(--clip-horizontal));
+      transform-origin: center;
+      animation: showLine linear both;
+      animation-timeline: view(block);
+      animation-range: cover 10% contain 40%;
+      content: "";
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url(../src/assets/img/png/line_roadmap_2.png) !important;
+      transition: all ease-in-out 300ms !important;
+    }
+  }
+}
 @media (min-width: 768px) {
   .cards-box .card {
     width: 375.45px;
@@ -906,10 +924,13 @@ img {
     background-size: 100% 100%;
   }
   .partners_img_h {
-    height: 550px;
+    height: 406px;
   }
 }
 @media (min-width: 1140px) {
+  .partners_img_h {
+    height: 550px;
+  }
   .card_box {
     padding: 36px 14px;
     height: 313.385px;
