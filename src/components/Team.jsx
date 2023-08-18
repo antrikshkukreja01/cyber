@@ -56,7 +56,11 @@ export default () => {
             <div className="team_card text-center ">
               <Row className=" align-items-center">
                 <Col sm={6}>
-                  <img className=" w-100 h_img_team" src={varun} alt="varun" />
+                  <img
+                    className=" mt-4 mt-sm-0 h_img_team img_width"
+                    src={varun}
+                    alt="varun"
+                  />
                 </Col>
                 <Col className="py-4 py-sm-0" sm={6}>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-black mb-2">
@@ -98,7 +102,11 @@ export default () => {
             <div className="team_card text-center ">
               <Row className=" align-items-center">
                 <Col sm={6}>
-                  <img className=" w-100 h_img_team" src={shubh} alt="shubh" />
+                  <img
+                    className=" mt-4 mt-sm-0 h_img_team img_width"
+                    src={shubh}
+                    alt="shubh"
+                  />
                 </Col>
                 <Col className="py-4 py-sm-0" sm={6}>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-black mb-2">
@@ -140,7 +148,11 @@ export default () => {
             <div className="team_card text-center ">
               <Row className=" align-items-center">
                 <Col sm={6}>
-                  <img className=" w-100 h_img_team" src={varun} alt="varun" />
+                  <img
+                    className=" mt-4 mt-sm-0 h_img_team img_width"
+                    src={varun}
+                    alt="varun"
+                  />
                 </Col>
                 <Col className="py-4 py-sm-0" sm={6}>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-black mb-2">
@@ -182,7 +194,11 @@ export default () => {
             <div className="team_card text-center ">
               <Row className=" align-items-center">
                 <Col sm={6}>
-                  <img className=" w-100 h_img_team" src={shubh} alt="shubh" />
+                  <img
+                    className=" mt-4 mt-sm-0 h_img_team img_width"
+                    src={shubh}
+                    alt="shubh"
+                  />
                 </Col>
                 <Col className="py-4 py-sm-0" sm={6}>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-black mb-2">
@@ -224,7 +240,11 @@ export default () => {
             <div className="team_card text-center ">
               <Row className=" align-items-center">
                 <Col sm={6}>
-                  <img className=" w-100 h_img_team" src={varun} alt="varun" />
+                  <img
+                    className=" mt-4 mt-sm-0 h_img_team img_width"
+                    src={varun}
+                    alt="varun"
+                  />
                 </Col>
                 <Col className="py-4 py-sm-0" sm={6}>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-black mb-2">
@@ -266,7 +286,11 @@ export default () => {
             <div className="team_card text-center ">
               <Row className=" align-items-center">
                 <Col sm={6}>
-                  <img className=" w-100 h_img_team" src={shubh} alt="shubh" />
+                  <img
+                    className=" mt-4 mt-sm-0 h_img_team img_width"
+                    src={shubh}
+                    alt="shubh"
+                  />
                 </Col>
                 <Col className="py-4 py-sm-0" sm={6}>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-black mb-2">

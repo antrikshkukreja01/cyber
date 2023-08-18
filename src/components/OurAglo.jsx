@@ -29,19 +29,19 @@ function OurAglo() {
             </Col>
             <Col lg={6}>
               <Row
-                className=" align-items-center mt-4 mt-lg-0 justify-content-lg-between justify-content-xl-end
+                className=" align-items-center mt-4 mt-lg-0 justify-content-lg-start justify-content-xl-end
               "
               >
-                <Col className=" me-3" sm={4}>
+                <Col className=" me-md-3 " sm={4}>
                   <div className="our_linear card_width">
                     <img className=" w-100" src={our_1} alt="our_1" />
                   </div>
-                  <div className="our_linear card_width mt-3">
+                  <div className="our_linear card_width mt-4">
                     <img className=" w-100" src={our_2} alt="our_2" />
                   </div>
                 </Col>
                 <Col sm={6}>
-                  <div className="our_linear mt-3 mt-lg-0">
+                  <div className="our_linear mt-3 ms-lg-4 ms-xl-0 mt-lg-0">
                     <img className=" w-100" src={our_3} alt="our_3" />
                   </div>
                 </Col>

@@ -8,7 +8,7 @@ import focus from "../assets/img/png/focus.png";
 function Patners() {
   return (
     <>
-      <section className="patners_bg position-relative text-center py-5">
+      <section className="patners_bg position-relative text-center py-5 mt-lg-5">
         <Container>
           <div className=" text-center mb-4 mb-lg-0">
             <h2 className=" text_clr heading_common">
@@ -19,13 +19,13 @@ function Patners() {
             <div className=" d-flex align-items-center">
               <div className="me-3">
                 <img className=" w-100" src={play_bit} alt="play_bit" />
-                <p className=" ff_lato fw-bold fs_xsm text-center mb-0 mt-2 mt-lg-4">
+                <p className=" ff_lato fw-bold fs_sm text-center mb-0 mt-2 mt-lg-4">
                   Playbit
                 </p>
               </div>
               <div className=" ms-3 mx-lg-3">
                 <img className=" w-100" src={capital_img} alt="capital_img" />
-                <p className=" ff_lato fw-bold fs_xsm text-center mb-0 mt-2 mt-lg-4">
+                <p className=" ff_lato fw-bold fs_sm text-center mb-0 mt-2 mt-lg-4">
                   24 Capital
                 </p>
               </div>
@@ -37,13 +37,13 @@ function Patners() {
                   src={trending_hive}
                   alt="trending_hive"
                 />
-                <p className=" ff_lato fw-bold fs_xsm text-center mb-0 mt-2 mt-lg-4">
+                <p className=" ff_lato fw-bold fs_sm text-center mb-0 mt-2 mt-lg-4">
                   TradingHive
                 </p>
               </div>
               <div className="ms-3">
                 <img className=" w-100" src={focus} alt="focus" />
-                <p className=" ff_lato fw-bold fs_xsm text-center mb-0 mt-2 mt-lg-4">
+                <p className=" ff_lato fw-bold fs_sm text-center mb-0 mt-2 mt-lg-4">
                   Focus Group Equities
                 </p>
               </div>

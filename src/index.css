@@ -102,6 +102,9 @@
   color: #fff;
   text-align: center;
 }
+.fw_800 {
+  font-weight: 800 !important;
+}
 
 @media (min-width: 576px) {
   :root {
@@ -154,7 +157,7 @@
     /* ---- Font Size ----- */
     --fs-xsm: 16px;
     --fs-sm: 18px;
-    --fs-md: 16px;
+    --fs-md: 20px;
     --fs-2x4l: 24px;
     --fs-2x8l: 28px;
     --fs-3x6l: 36px;

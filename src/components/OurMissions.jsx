@@ -37,30 +37,32 @@ function OurMissions() {
         <Container className="container_custom">
           <Row className="align-items-center justify-content-between">
             <Col lg={5} className="mb-5 mb-lg-0 ps-sm-5 ps-xl-0 ">
-              <div class="cards-box w_70 ">
-                <div class="card hide">
-                  <div class="content-placeholder">
-                    <img className="w-100" src={card_2} alt="card" />
+              <div className=" d-sm-flex d-lg-inline-block align-items-center justify-content-center w-100">
+                <div class="cards-box w_70 ">
+                  <div class="card hide">
+                    <div class="content-placeholder">
+                      <img className="w-100" src={card_2} alt="card" />
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="content-placeholder">
-                    <img className="w-100" src={card} alt="card" />
+                  <div class="card">
+                    <div class="content-placeholder">
+                      <img className="w-100" src={card} alt="card" />
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="content-placeholder">
-                    <img className="w-100" src={card_2} alt="card" />
+                  <div class="card">
+                    <div class="content-placeholder">
+                      <img className="w-100" src={card_2} alt="card" />
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="content-placeholder">
-                    <img className="w-100" src={card} alt="card" />
+                  <div class="card">
+                    <div class="content-placeholder">
+                      <img className="w-100" src={card} alt="card" />
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="content-placeholder">
-                    <img className="w-100" src={card_2} alt="card" />
+                  <div class="card">
+                    <div class="content-placeholder">
+                      <img className="w-100" src={card_2} alt="card" />
+                    </div>
                   </div>
                 </div>
               </div>

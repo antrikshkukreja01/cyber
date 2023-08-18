@@ -9,7 +9,7 @@ function Header() {
         <Container>
           <Row className=" align-items-center justify-content-between">
             <Col lg={5}>
-              <h1 className=" ff_lato fw-bold fs_7x2l text-white">
+              <h1 className=" ff_lato fw_800 fs_7x2l text-white">
                 Welcome to <span className=" clr_orange">Cyber Drops</span>
               </h1>
               <p className="paragraph_common text-white mb-3 mt-2 mb-md-5 mt-md-4">

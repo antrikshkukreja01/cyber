@@ -19,7 +19,7 @@ function Preloader() {
   return (
     <>
       {loader ? (
-        <section className=" position-fixed w-100 min-vh-100 Loader overflow-hidden  bg-black  d-flex flex-column justify-content-center align-items-center position-relative z-3 ">
+        <section className=" position-fixed w-100  Loader overflow-hidden  bg-black z-3  d-flex flex-column justify-content-center align-items-center position-relative z-3 ">
           <svg class="pl" viewBox="0 0 128 128" width="128px" height="128px">
             <defs>
               <linearGradient id="pl-grad" x1="0" y1="0" x2="0" y2="1">

@@ -85,6 +85,18 @@ body {
   margin: 3px 0px;
   width: 70%;
 }
+.navBtn .span4 {
+  background: white;
+  height: 4px;
+  rotate: -45deg;
+  width: 100%;
+}
+.navBtn .span5 {
+  background: white;
+  height: 4px;
+  rotate: 45deg;
+  width: 100%;
+}
 .orange_shadow {
   background-color: var(--1, #f1ac73);
   width: 21.75px;
@@ -363,6 +375,10 @@ body {
 .h_img_team {
   height: 320px;
 }
+.img_width {
+  width: 274px !important;
+}
+
 .mx_193 {
   max-width: 193px;
 }
@@ -374,10 +390,10 @@ body {
   width: 24px;
 }
 .splide__arrow--prev {
-  left: -45px !important;
+  left: -55px !important;
 }
 .splide__arrow--next {
-  right: -45px !important;
+  right: -55px !important;
 }
 .splide__pagination {
   bottom: -2.5em !important;
@@ -406,6 +422,8 @@ body {
   background: transparent !important;
   border: 4px solid white !important;
   opacity: 1 !important;
+  height: 45px !important;
+  width: 45px !important;
 }
 .splide__arrow svg {
   fill: white !important ;
@@ -518,6 +536,9 @@ main {
   animation: slideIn linear both;
   animation-timeline: view(block);
   animation-range: cover 0% contain 12%;
+  position: absolute;
+  left: 30%;
+  text-align: start !important;
 }
 
 /* keyframes */
@@ -630,6 +651,7 @@ img {
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 transparent !important;
   border-top-right-radius: var(--bs-accordion-inner-border-radius);
   border-top-left-radius: var(--bs-accordion-inner-border-radius);
+  padding-bottom: 6px !important ;
 }
 .accordion-body {
   padding: 0px 15px 20px 15px !important;
@@ -725,6 +747,14 @@ img {
   width: 50px;
 }
 /* --- PreLoder --- */
+.Loader {
+  z-index: 1235 !important;
+  position: relative;
+  background-color: #000000;
+  overflow: hidden !important;
+  min-height: 105vh !important;
+}
+
 .pl {
   margin: auto;
   width: 8em;
@@ -845,6 +875,9 @@ img {
   background-size: 100% 100%;
 }
 @media (min-width: 576px) {
+  .overflow_hidden {
+    overflow: hidden !important;
+  }
   .card_box {
     position: relative;
     border: 2px solid transparent;
@@ -857,6 +890,9 @@ img {
   }
   .h_img_team {
     height: 100%;
+  }
+  .img_width {
+    width: 100%;
   }
   .stop {
     &::after {
@@ -903,7 +939,7 @@ img {
     transform: var(--bs-accordion-btn-icon-transform);
     position: absolute;
     right: 49px;
-    top: 61px;
+    top: 44px;
     transition: all ease-in-out 300ms !important;
   }
   .card_width {
@@ -915,6 +951,9 @@ img {
   }
   .box_my {
     display: none !important;
+  }
+  .overflow_hidden {
+    overflow: visible !important;
   }
   .card_box {
     height: 290.385px;

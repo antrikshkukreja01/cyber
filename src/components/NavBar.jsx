@@ -10,9 +10,9 @@ import medium from "../assets/img/png/medium_circle.png";
 function Nav() {
   const [name, setname] = useState(false);
   if (name) {
-    document.body.classList.add("overflow-hidden");
+    document.body.classList.add("overflow_hidden");
   } else {
-    document.body.classList.remove("overflow-hidden");
+    document.body.classList.remove("overflow_hidden");
   }
   return (
     <>
@@ -130,7 +130,12 @@ function Nav() {
                 className="d-lg-none zn d-flex  justify-content-center align-items-center  d-inline-block"
                 onClick={() => setname(false)}
               >
-                <img className=" cancle_icon_size " src={cancle} alt="cancle" />
+                {/* <img className=" cancle_icon_size " src={cancle} alt="cancle" /> */}
+                <label className="navBtn ">
+                  <input type="checkbox" id="line" className="menubar" />
+                  <span className="span4 rounded-3"></span>
+                  <span className="span5 rounded-3"></span>
+                </label>
               </a>
             </div>
 

@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 function Roadmap() {
   return (
     <>
-      <section className=" py-5">
+      <section className=" py-5 mt-lg-5">
         <div className="text-center">
           <h2 className=" heading_common">
             Road<span className="clr_orange">Map</span>
@@ -43,7 +43,7 @@ function Roadmap() {
                     March 2022
                   </h2>
                   <p className=" ff_lato fw-normal fs-xsm text-white">
-                    1000 Drops Launch on Ethereum
+                    Creation of Treasury
                   </p>
                 </header>
               </div>
@@ -52,10 +52,10 @@ function Roadmap() {
               <div class="text">
                 <header>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-white">
-                    March 2022
+                    April 2022
                   </h2>
                   <p className=" ff_lato fw-normal fs-xsm text-white">
-                    1000 Drops Launch on Ethereum
+                    Our First Airdrop
                   </p>
                 </header>
               </div>
@@ -64,10 +64,10 @@ function Roadmap() {
               <div class="text">
                 <header>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-white">
-                    March 2022
+                    June 2022
                   </h2>
                   <p className=" ff_lato fw-normal fs-xsm text-white">
-                    1000 Drops Launch on Ethereum
+                    Major Collabs
                   </p>
                 </header>
               </div>
@@ -76,10 +76,10 @@ function Roadmap() {
               <div class="text">
                 <header>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-white">
-                    March 2022
+                    Sometime in Q3
                   </h2>
                   <p className=" ff_lato fw-normal fs-xsm text-white">
-                    1000 Drops Launch on Ethereum
+                    Cyber Celebs come on Ethereum
                   </p>
                 </header>
               </div>
@@ -88,10 +88,10 @@ function Roadmap() {
               <div class="text">
                 <header>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-white">
-                    March 2022
+                    Sometime in Q3
                   </h2>
                   <p className=" ff_lato fw-normal fs-xsm text-white">
-                    1000 Drops Launch on Ethereum
+                    Streetwear + Merch
                   </p>
                 </header>
               </div>
@@ -100,10 +100,10 @@ function Roadmap() {
               <div class="text">
                 <header>
                   <h2 className=" ff_lato fw-bold fs_2x4l text-white">
-                    March 2022
+                    Sometime in Q4
                   </h2>
                   <p className=" ff_lato fw-normal fs-xsm text-white">
-                    1000 Drops Launch on Ethereum
+                    Enhanced Partnerships
                   </p>
                 </header>
               </div>
